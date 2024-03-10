@@ -1,2 +1,4 @@
 # phaskell-att.github.io
-Repo for public website
+# 10 March 2023
+
+Repo for Paul Haskell's personal public website.
