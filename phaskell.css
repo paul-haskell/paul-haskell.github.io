@@ -1,0 +1,47 @@
+/* filename: phaskell.css
+ *
+ */
+
+body {background-color:#323259}
+
+H1 {
+	text-align: center;
+	color:white;
+	font-size: 32;
+	font-family: Verdana;
+	text-shadow: 1px 1px #888888;
+}
+
+.yellowBanner {
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+
+.grid-container {
+	display: grid; /* contents of this container are in a grid */
+	grid-template-columns: 23% 77%;
+	grid-row-gap: 2px;
+	grid-column-gap: 0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.grid-left {
+	color: white;
+	text-align: end;
+	font-family: Verdana;
+	padding-right: 9px;
+	border: 2px solid white;
+	/* border-radius: 3px; */
+}
+
+.grid-right {
+	background-color: #f4f4f4;
+	text-align: left;
+	font-family: Arial;
+	padding-left: 8px;
+	padding-right: 8px;
+}
